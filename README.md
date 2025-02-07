@@ -30,9 +30,9 @@ def sample_task():
 
 sample_task()
 ```
+
 ### My Favorite Animal
 
 ![Baby Golden Retriever](./images/dog.jpg)
 
 This is a picture of a **Golden Retriever**, a friendly and intelligent breed
-
