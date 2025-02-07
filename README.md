@@ -29,11 +29,11 @@ def sample_task():
     print("Task completed.")
 
 sample_task()
-
+```
 ### My Favorite Animal
 
 ![Baby Golden Retriever](./images/dog.jpg)
 ![Adult Golden Retriever](https://i.pinimg.com/736x/68/79/25/687925314776cf55ffd56d36d6d36a27.jpg)
 
 This is a picture of a **Golden Retriever**, a friendly and intelligent breed
-```
+
