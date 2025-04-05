@@ -34,9 +34,9 @@ This project is a simple yet effective Python-based web scraper that extracts bu
    Open `input_urls.txt` and paste one URL per line. Example:
 
    ```
-   https://www.businessnewsdaily.com
-   https://www.reuters.com/business/
-   https://www.cnbc.com/business/
+   https://www.npr.org/sections/business/
+   https://www.entrepreneur.com/topic/business-news
+   https://www.economist.com/topics/business
    ```
 
 4. **Run the scraper:**
