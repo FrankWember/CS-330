@@ -1,38 +1,27 @@
-# Understanding Python Decorators
+# Web Scraping Project – CS 330
 
-Python decorators are a powerful feature that me to modify the behavior of functions without changing their actual code. They provide an elegant way to apply reusable logic such as logging, authentication, and even performance measurement.
+## Overview
 
-## Using a Decorator
+This project scrapes business-related headlines from multiple news websites. It uses the Python libraries `requests` and `BeautifulSoup` to extract headlines (`<h1>`, `<h2>`, `<h3>`) from provided URLs and stores the results in a text file.
 
-A decorator is a function which takes another function as an argument, enhances or modifies its behavior, and returns a new function. Below is an example of a simple decorator that measures the execution time of a function.
+---
 
-<code> conda env create --file requirements.yaml </code>
+## Input
 
-### Example Code
+- `input_urls.txt`: A list of business news URLs, one per line.
 
-Here is a Python decorator that will help to measure the time taken by a function:
+## Output
 
-```python
-import time
+- `output_headings.txt`: A list of cleaned, de-duplicated headlines extracted from the URLs.
 
-def timer_decorator(func):
-    def wrapper():
-        start = time.time()
-        func()
-        end = time.time()
-        print(f"{func.__name__} executed in {end - start:.4f} seconds.")
-    return wrapper
+---
 
-@timer_decorator
-def sample_task():
-    time.sleep(2)  # Simulates a time-consuming task
-    print("Task completed.")
+## Setup Instructions
 
-sample_task()
+1. **Clone the repo** and switch to the `webScrapping` branch:
+
+```bash
+git clone <your-repo-url>
+cd <repo-name>
+git checkout -b webScrapping
 ```
-
-### My Favorite Animal
-
-![Baby Golden Retriever](./images/dog.jpg)
-
-This is a picture of a **Golden Retriever**, a friendly and intelligent breed
