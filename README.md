@@ -1,4 +1,4 @@
-# Web Scraping Project – CS 330
+# Web Scraping Project – CS 325
 
 ## Overview
 
