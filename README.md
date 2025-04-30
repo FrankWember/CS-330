@@ -73,7 +73,7 @@ pytest test_sentiment_analyzer.py
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 | Variable     | Description                            | Example                                             |
 | ------------ | -------------------------------------- | --------------------------------------------------- |
