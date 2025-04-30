@@ -81,7 +81,7 @@ pytest test_sentiment_analyzer.py
 
 ---
 
-## ✅ Dependencies
+## Dependencies
 
 All dependencies are listed in `requirements.txt`:
 
@@ -96,6 +96,6 @@ pip install -r requirements.txt
 
 ---
 
-## ✍️ Authors & Credit
+## Authors & Credit
 
 Created by Frank Wember. LLM-based inference via [Ollama](https://ollama.com), scraping logic powered by `BeautifulSoup`.
