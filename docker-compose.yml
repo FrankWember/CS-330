@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: project3-app
+    environment:
+      - LLM_SERVER=http://host.docker.internal:11434
+    volumes:
+      - .:/app
+    command: ["python", "main.py"]
